@@ -1,0 +1,23 @@
+button {
+  width: 165px;
+  height: 52px;
+  font-size: 16pt;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+tr.yee {
+  background-color: black;
+  color: white;
+}
+
+tr.yoo {
+  background-color: #d3d3d3;
+}
+
+tr.woo {
+  background-color: white;
+}
