@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 17px;
+  color: rgb(224, 66, 66);
+}
+
+button {
+  margin: 10px;
+  height: 33px;
+  width: 92px;
+  border: none;
+  border-radius: 30px;
+  border-color: rgb(224, 66, 66);
+  background-color: rgb(224, 66, 66);
+  color: white;
+  margin-left: 308px;
+}
+
+label {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+select {
+  padding-right: 293px;
+  background-color: rgb(241, 239, 239);
+}
+
+input,
+select {
+  height: 37px;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: rgb(235, 231, 231);
+  margin-top: 3px;
+}
+
+::placeholder {
+  padding-left: 8px;
+}
+
+fieldset {
+  border: none;
+}
+
+label,
+button,
+h2 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url('BrandonGrotesque-Medium.woff2') format('woff2');
+}
