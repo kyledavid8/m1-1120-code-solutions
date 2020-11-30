@@ -16,12 +16,11 @@ button {
   margin: 10px;
   height: 33px;
   width: 92px;
-  border: none;
   border-radius: 30px;
-  border-color: rgb(224, 66, 66);
+  border: none;
   background-color: rgb(224, 66, 66);
   color: white;
-  margin-left: 308px;
+  margin-left: 77%;
 }
 
 label {
@@ -32,7 +31,7 @@ label {
 }
 
 select {
-  padding-right: 293px;
+  padding-right: 74%;
   background-color: rgb(241, 239, 239);
 }
 
