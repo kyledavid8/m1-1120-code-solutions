@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(93, 93, 255);
+  color: white;
+  font-family: 'Lato', sans-serif, serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+.column-full {
+  margin-left: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.row,
+.row-image {
+  display: flex;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.blue {
+  background-color: white;
+  border-radius: 50%;
+  width: 45%;
+  height: 45%;
+  margin-left: 65px;
+}
+
+.blue > img {
+  width: 45%;
+  align-items: center;
+  margin: 27px 0 27px 0;
+  border: 1px solid white;
+  padding: 1%;
+}
+
+.column {
+  text-align: center;
+  margin: 15px;
+}
