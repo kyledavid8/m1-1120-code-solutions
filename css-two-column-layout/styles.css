@@ -1,0 +1,105 @@
+h3,
+p {
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2) format('woff2');
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'karla', sans-serif;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  line-height: 2;
+}
+
+.container {
+  max-width: 1050px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  margin: 45px 50px 45px 50px;
+  flex-basis: calc(100% / 2);
+}
+
+.column-full {
+  text-align: center;
+}
+
+.column-one-half {
+  display: flex;
+}
+
+.red > img {
+  width: 120px;
+}
+
+.red-two {
+  width: 320px;
+  margin-top: 15px;
+}
+
+.column-two-half {
+  display: flex;
+  margin-left: 65px;
+}
+
+.pink > img {
+  width: 120px;
+}
+
+.pink-two {
+  width: 300px;
+  margin-top: 15px;
+}
+
+.column-one-third {
+  display: flex;
+}
+
+.green > img {
+  width: 120px;
+}
+
+.green-two {
+  width: 320px;
+  margin-top: 15px;
+}
+
+.column-one-four {
+  display: flex;
+  margin-left: 50px;
+}
+
+.yellow > img {
+  width: 120px;
+}
+
+.yellow-two {
+  width: 300px;
+  margin-top: 15px;
+}
+
+.button-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+button {
+  padding: 7px 40px;
+  background-color: white;
+  border: 2px solid red;
+  color: red;
+}
