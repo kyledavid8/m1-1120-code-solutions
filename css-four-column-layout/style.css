@@ -1,0 +1,41 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Barlow', sans-serif;
+  background-color: rgb(243, 242, 242);
+}
+
+h3,
+p {
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+}
+
+.image > img {
+  width: 100%;
+  background-position: center;
+}
+
+.visual {
+  display: flex;
+  justify-content: center;
+}
+
+.visual > img {
+  width: 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  width: 25%;
+}
