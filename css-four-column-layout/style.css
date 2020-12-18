@@ -32,28 +32,10 @@ p {
 }
 
 .row {
-  flex-basis: calc(100% / 4);
   display: flex;
   flex-direction: row;
 }
 
-.column-one {
+.column {
   width: 25%;
-}
-
-.column-two {
-  width: 25%;
-}
-
-.column-three {
-  width: 25%;
-}
-
-.column-four {
-  width: 25%;
-}
-
-.column-two,
-.column-three {
-  margin: 0 15px;
 }
