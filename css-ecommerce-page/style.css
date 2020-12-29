@@ -1,0 +1,49 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  width: 20%;
+  font-size: 13px;
+}
+
+.column > img {
+  height: 300px;
+  border-radius: 1%;
+}
+
+del {
+  color: rgb(173, 173, 173);
+  font-size: 12px;
+}
+
+.size {
+  border-left: 1px solid rgb(173, 173, 173);
+  height: 10px;
+  padding-left: 3px;
+  color: rgb(173, 173, 173);
+}
+
+.background-color-red {
+  background-color: rgb(250, 232, 232);
+  margin-right: 5px;
+}
+
+.bold {
+  margin-right: 5px;
+}
+
+.bold,
+.background-color-red {
+  font-weight: bold;
+}
