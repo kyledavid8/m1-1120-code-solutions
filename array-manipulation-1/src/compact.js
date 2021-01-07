@@ -12,3 +12,4 @@ function compact(array) {
   }
   return answer;
 }
+/* I'm am currently making a comment */
