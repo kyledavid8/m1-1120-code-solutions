@@ -1,0 +1,32 @@
+.container {
+  background-color: black;
+  height: 560px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bulb {
+  background-color: rgb(51, 51, 51);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.containerActive {
+  background-color: rgb(238, 238, 216);
+  height: 560px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bulbActive {
+  background-color: rgb(240, 240, 134);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgb(230, 230, 173);
+}
