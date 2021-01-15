@@ -1,0 +1,47 @@
+.button > button {
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: rgb(67, 67, 250);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  box-shadow: 0 10px 30px -15px black;
+}
+
+.modal {
+  display: none;
+}
+
+.modal-container-alive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-alive {
+  padding: 40px 40px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.modal-alive > button {
+  color: white;
+  background-color: rgb(231, 81, 81);
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.modal-alive > h2 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 45px;
+}
